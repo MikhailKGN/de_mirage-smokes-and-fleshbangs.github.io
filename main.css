@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	outline: none;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	width: 100%;
+	height: 100%;
+}
+header {
+	width: 100%;
+	padding: 10px 0.5% 0px 0.5%;
+	background: transparent;
+	float: left;
+	position: fixed;
+}
+header #logo {
+	cursor: pointer;
+}
+@media (min-width: 701px) {
+	#logo {
+	  float: left;
+	  width: 30%;
+	}
+	#menu {
+		float: right;
+		width: 67%;
+	  }
+	}
+	
+	@media (max-width: 700px) {
+	  #logo {
+		margin-top: 15px;
+		width: 100%;
+	  }
+	
+	  #menu {
+		float: left;
+		width: 100%;
+	  }
+	}
+	
+	#menu {
+	  text-align: center;
+	  font-size: 1em;
+	  line-height: 40px;
+	  margin-bottom: 10px;
+	}
+	
+	#menu > a {color: #000000}
+	
+	#menu > a:hover {
+	  color: ;
+	  text-decoration: underline;
+	}
+	
+	#menu > a:not(:last-child) {
+	  margin-right: 7%;
+	}
+	
+	
+	.fixed {
+	  background-color: #fff;
+	  border-bottom: 1px solid silver;
+	}
+	
+	header.fixed #logo {
+	  color: #343434;
+	}
+	
+	.fixed #menu a {color: #343434}
+	.fixed #menu a:hover {color: #7c7c7c}
+#for_bg {
+	width: 100%;
+	background-image: url("https://i.ibb.co/8j72B0F/main-bg.jpg");
+	background-color: #778899;
+	background-size: cover;
+}
+body 
+
+@media (min-width: 1001px) {
+  #for_bg {
+    font-size: 3em;
+    height: 1000px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+  #for_bg {
+    font-size: 2em;
+    height: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  #for_bg {
+    font-size: 1.3em;
+    padding-top: 50%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  #for_bg {
+    font-size: 0.9em;
+  }
+}
+
+#for_bg h1 {
+  padding-top: 20%;
+}
+#main{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16pt;
+	text-align: center;
+}
+#main span{
+	background-color: #9ad2d4;
+}
+
+#soderjanie{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16pt;
+	background-color: rgba(154, 210, 212, 0.3);
+}
+#content{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16pt;
+	background-color: rgba(154, 210, 212, 0.3);
+}
+#content h2{
+	text-align: center;
+	font-size: 18pt;
+}
+#content h3{
+	text-align: center;
+	font-size: 18pt;
+}
+#KT{
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 16pt;
+	background-color: rgba(154, 210, 212, 0.3);
+}
+#KT h2{
+	text-align: center;
+	font-size: 18pt;
+}
+#KT h3{
+	text-align: center;
+	font-size: 18pt;
+}
+#for_bg1{
+	background-image: url("https://i.ibb.co/VVNCYHF/BG-T1.png");
+	background-size: 100%;
+}
+#for_bg2{
+	background-image: url("https://i.ibb.co/KzZXSsy/BG-KT1.jpg");
+	background-size: 100%;
+}
