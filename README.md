@@ -1,1 +1,1 @@
-# de_mirage-smokes-and-fleshbangs.github.io
+# de_mirage-smokes-and-flashbangs.github.io
